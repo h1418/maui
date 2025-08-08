@@ -8,7 +8,7 @@
 
 * [Install .NET MAUI](https://dot.net/maui)
 * [.NET MAUI Documentation](https://docs.microsoft.com/dotnet/maui)
-* [.NET MAUI Samples](https://github.com/dotnet/maui-samples)
+* [.NET MAUI Samples](https://github.com/dotnet/maui-samples)t
 * [Development Guide](./.github/DEVELOPMENT.md)
 
 ## Overview
