@@ -33,12 +33,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          # Giữ nguyên branch name payload để test injection
           git commit -m "[housekeeping] Automated PR to fix formatting errors on ${{ github.head_ref }}" || echo "No changes to commit"
 
       - name: Push changes to PR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Giữ nguyên branch name payload để test injection
           git push origin HEAD:${{ github.event.pull_request.head.ref }}
