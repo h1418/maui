@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   dotnet-format:
-    runs-on: windows-latest  # Giữ nguyên Windows runner
+    runs-on: windows-latest
 
     steps:
       - name: Manual checkout by SHA (bypass bad ref name)
